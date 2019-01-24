@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'npv-tester';
+
+  public pdfNo: number;
+  public pdfSrc = '../assets/test.pdf';
+
+  click(): void {
+    this.pdfNo++;
+  }
+
 }
